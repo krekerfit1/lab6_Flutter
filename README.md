@@ -21,24 +21,11 @@
 ![Скриншот приложения](img/image.png)
 
 ## Структура проекта
+![Структура](img/structure.png)
 
 
 labs6_istomin
-│
-|── lib                         Исходный код
-│   |── main.dart               запуск приложения
-│   |── gradientcontainer.dart  Градиентный фон и верстка
-│   |── styledtext.dart         Кастомный стиль текста
-│   |── dice_roller.dart        Логика кнопки и смена контента
-│
-|── img                         Изображения
-│   |── image.png             
-│   |── Push.png     
-│
-|── assets                      Ресурсы приложения 
-│
-|── pubspec.yaml                Зависимости и настройки
-|── README.md                   Описание проекта
+
 
 ## Как запустить
 

@@ -1,17 +1,50 @@
-# labs6_istomin
+# Карточки с фактами
 
-A new Flutter project.
+**Тема:** Приложение показывает случайный интересный факт истории при нажатии кнопки. 
+Приложение реализует интерактивный интерфейс с градиентным фоном, динамической сменой карточки по клику на кнопку.
 
-## Getting Started
+## Автор
 
-This project is a starting point for a Flutter application.
+* **Автор:** Истомин Максим 
+* **Группа:** ИСП-243
+* **Дата:** 23.10.26
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* **Flutter:** 3.47.7
+* **Dart:** 3.13.4
+* **Платформа:** edge
+* **IDE:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Скриншот приложения](img/image.png)
+
+## Структура проекта
+
+
+labs6_istomin
+│
+|── lib                         Исходный код
+│   |── main.dart               запуск приложения
+│   |── gradientcontainer.dart  Градиентный фон и верстка
+│   |── styledtext.dart         Кастомный стиль текста
+│   |── dice_roller.dart        Логика кнопки и смена контента
+│
+|── img                         Изображения
+│   |── image.png             
+│   |── Push.png     
+│
+|── assets                      Ресурсы приложения 
+│
+|── pubspec.yaml                Зависимости и настройки
+|── README.md                   Описание проекта
+
+## Как запустить
+
+Выполните следующие команды в терминале:
+
+```
+git clone https://github.com/krekerfit1/lab6_Flutter.git
+cd labs6_Istomin
+flutter run -d chrome

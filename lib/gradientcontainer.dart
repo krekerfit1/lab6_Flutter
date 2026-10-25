@@ -31,7 +31,7 @@ class GradientContainer extends StatelessWidget {
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: const [
-            StyledText('Dice Roller'),
+            StyledText('Карточки с фактами:'),
             SizedBox(height: 20),
             DiceRoller(),
           ],

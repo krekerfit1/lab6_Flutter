@@ -36,7 +36,7 @@ class _DiceRollerState extends State<DiceRoller> {
             backgroundColor: const Color.fromARGB(255, 26, 42, 110),
             textStyle: const TextStyle(fontSize: 30),
           ),
-          child: const Text('Это кнопка'),
+          child: const Text('Следующая карточка'),
         ),
       ],
     );
